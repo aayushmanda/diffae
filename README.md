@@ -1,23 +1,11 @@
-# Official implementation of Diffusion Autoencoders
+# EE6180 Topics in Advanced AI Project.
 
-A CVPR 2022 (ORAL) paper ([paper](https://openaccess.thecvf.com/content/CVPR2022/html/Preechakul_Diffusion_Autoencoders_Toward_a_Meaningful_and_Decodable_Representation_CVPR_2022_paper.html), [site](https://diff-ae.github.io/), [5-min video](https://youtu.be/i3rjEsiHoUU)):
+Team: Aayushman, Ashutosh Patidar, Kaushik Doddamani
 
-```
-@inproceedings{preechakul2021diffusion,
-      title={Diffusion Autoencoders: Toward a Meaningful and Decodable Representation}, 
-      author={Preechakul, Konpat and Chatthee, Nattanat and Wizadwongsa, Suttisak and Suwajanakorn, Supasorn},
-      booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}, 
-      year={2022},
-}
-```
+Result Reproduction: [Colab File](https://colab.research.google.com/drive/16KUXSOEBVK8n3lMmuFIu0NotL4rrfbHS?usp=sharing) 
 
-## Usage
+Important Links([paper](https://openaccess.thecvf.com/content/CVPR2022/html/Preechakul_Diffusion_Autoencoders_Toward_a_Meaningful_and_Decodable_Representation_CVPR_2022_paper.html), [site](https://diff-ae.github.io/), [5-min video](https://youtu.be/i3rjEsiHoUU)):
 
-⚙️ Try a Colab walkthrough: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1OTfwkklN-IEd4hFk4LnweOleyDtS4XTh/view?usp=sharing)
-
-🤗 Try a web demo: [![Replicate](https://replicate.com/cjwbw/diffae/badge)](https://replicate.com/cjwbw/diffae)
-
-Note: Since we expect a lot of changes on the codebase, please fork the repo before using.
 
 ### Prerequisites
 
@@ -196,4 +184,12 @@ This experiment can be run on 2080Ti's.
 ```
 # diffae
 python run_celeba64.py
+```
+```
+@inproceedings{preechakul2021diffusion,
+      title={Diffusion Autoencoders: Toward a Meaningful and Decodable Representation}, 
+      author={Preechakul, Konpat and Chatthee, Nattanat and Wizadwongsa, Suttisak and Suwajanakorn, Supasorn},
+      booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}, 
+      year={2022},
+}
 ```
